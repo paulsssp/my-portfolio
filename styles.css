@@ -1,0 +1,41 @@
+/*html color codes es util
+jugar con backgrounf image y rbga encims para que se vea la imagen de fondo con color
+#fed4d4
+#eec9c9 h2 fondo 
+#debfbf
+#cfb4b4
+#bfaaaa background body
+#af9f9f
+#9f9595 titulo
+#8f8a8a letra
+
+*/
+
+body{
+    background-color: #bfaaaa
+}
+
+h1{
+
+}
+
+h2{
+    background-color: #eec9c9 
+}
+
+p{
+
+}
+
+a{
+
+}
+
+ul{
+
+}
+
+li{
+
+}
+

@@ -24,7 +24,7 @@ h2{
 }
 
 p{
-
+    text-align: justify
 }
 
 a{
@@ -39,3 +39,26 @@ li{
 
 }
 
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container > div { /* ">" es para que solo afecte a los divs hijos directos */
+    flex: 1; /* Ambos divs ocupan el mismo ancho */
+}
+
+.container div:first-child {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Ajusta según necesites */
+}
+
+.about-me {
+    background-color: #e939c9;
+    padding: 20px;
+    margin-right: 5%; /* Deja espacio fuera del div */
+    border-radius: 10px;
+}
